@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
     <title>Contact</title>
   </head>
   
   <body>
 <!--This creates a navbar on top of the page that spans the whole width. In addition, the expand will result in a toggler button that will drop down the nav-item when screen is considered small. Lastly, the navbar is dark bg-->
-<nav class ="navbar navbar-expand-sm navbar-dark bg-dark">
+<nav class ="navbar navbar-expand-sm navbar-light bg-light">
     <!--Adding a brand name into the navbar-->
     <a href="#" class="navbar-brand">Contact</a>
         <!--This is a toggler button that display when screen real estate becomes small-->
@@ -33,9 +34,43 @@
         </div>
     </nav>
 
+     <!--main contact container-->
+     <div class="contact-container container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Contact</h2>
+                <hr>
+            </div>
+                <div class="col-12">
+                    <!--name-->
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class ="form-control">
+                    </div>
+                    <!--email-->
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" class ="form-control">
+                    </div>
+                    <!--message-->
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea class ="form-control" rows="5"></textarea>
+                    </div>
+                    <!--submit-->
+                    <div class="form-group">
+                        <button class ="btn btn-primary btn-block">Submit</button>
+                    </div>
+                </div>
+        </div>    
+    </div>
 
 
+    <div class="footer">
+            <p>&copy;Copyright</p>
+    </div>
 
 
   </body>
+  
 </html>
