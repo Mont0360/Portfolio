@@ -13,7 +13,8 @@
 .navbar-brand {
     
     background-color: teal;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
     color: white;
-
-    
 }
