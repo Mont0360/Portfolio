@@ -9,19 +9,18 @@
   </head>
   
   <body>
-<!--This creates a navbar on top of the page that spans the whole width. In addition, the expand will result in a toggler button that will drop down the nav-item when screen is considered small. Lastly, the navbar is dark bg-->
+<!--This creates a navbar on top of the page-->
 <nav class ="navbar navbar-expand-sm navbar-light bg-light">
     <!--Adding a brand name into the navbar-->
     <a href="#" class="navbar-brand">Contact</a>
-        <!--This is a toggler button that display when screen real estate becomes small-->
+        <!--This is a toggler button that displays when screen becomes small-->
         <button class ="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <!--It helps collapse the items in the navbar so that it is in rows instead of columns. The id will correspond to the data-target so javascript can target the menu and collapse it-->
         <div class="collapse navbar-collapse" id="navbarmenu">
-            <!--Due to the nature of bootstrap and default flex box display, you want ml-auto to correct the menu to properly display the nav-item on the right-->
+            <!--ml-auto to correct the menu to properly display the nav-item on the right-->
             <ul class="navbar-nav ml-auto">
-                <!--list of nav-item with properly link to respective pages-->
+                <!--list of nav-item to link to pages-->
                 <li class="nav-item">
                     <a href="index.html" class="nav-link"> About</a>
                 </li>
@@ -34,7 +33,7 @@
         </div>
     </nav>
 
-     <!--main contact container-->
+     <!--contact container-->
      <div class="contact-container container">
         <div class="row">
             <div class="col-12">
@@ -70,7 +69,7 @@
             <p>&copy;Copyright</p>
     </div>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   </body>
   
 </html>
