@@ -1,3 +1,20 @@
+Body {
+    background-color:grey;
+    color: white;
+}
+
+.card-text {
+
+    color: black;
+}
+
+.card-title {
+    
+    font-weight: bold;
+    color: black;
+}
+
+
 .footer {
 
     position: fixed;
@@ -15,6 +32,6 @@
     background-color: teal;
     padding: 20px;
     font-weight: bold;
-    font-size: 30px;
-    color: white;
+    font-size: 35px;
+    color:rgb(73, 70, 70);
 }
